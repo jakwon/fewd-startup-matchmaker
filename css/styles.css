@@ -18,6 +18,7 @@ header{
 h1 {
    padding: 40px;
    font-size: 30px;
+   color: yellow;
 }
 
 nav {
@@ -29,12 +30,13 @@ li {
 }
 .subheader {
   height: 100px;
-  background-color: gray;
+  background-color: #BBB8B8;
 }
 h5 {
   text-align: center;
   font-size: 30px;
   padding-top: 30px;
+  font-style: italic;
 }
 .photobody {
   height: 700px;
@@ -60,6 +62,7 @@ h2 {
 .textbox button {
   background-color: yellow;
   padding: 10px;
+  font-size: 18px;
   width: 250px;
   float: center;
   border-radius: 8px;
@@ -89,7 +92,7 @@ p {
   width: 250px;
   float: center;
   margin: auto;
-  background-color: gray;
+  background-color: #BBB8B8;
   font-weight: bold;
   font-size: 22px;
   padding: 10px;
@@ -102,5 +105,8 @@ footer {
   width: 100%;
   clear:left;
   color: white;
-  padding: 40px;
+  padding: 30px;
+}
+footer p {
+  padding-left: 30px;
 }
